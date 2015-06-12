@@ -1,0 +1,15 @@
+/// <reference path="../typings/custom.system.d.ts" />
+System.config({
+    paths: { '*': '*.js?v=0.0.0' }
+});
+(function () {
+    var c = System.defined['angular2/core'];
+    var i = c.deps.indexOf('angular2/src/core/compiler/interfaces');
+    if (i >= 0) {
+        c.deps[i] = 'angular2/src/core/zone/ng_zone';
+    }
+}());
+System.import('./app')
+    .catch(function (e) { return console.error(e, 'Report this error at https://github.com/mgechev/angular2-seed/issues'); });
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluaXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsc0RBQXNEO0FBQ3RELE1BQU0sQ0FBQyxNQUFNLENBQUM7SUFDWixLQUFLLEVBQUUsRUFBQyxHQUFHLEVBQUUsdUJBQXVCLEVBQUM7Q0FDdEMsQ0FBQyxDQUFDO0FBR0gsQ0FBQztJQUNDLElBQUksQ0FBQyxHQUFHLE1BQU0sQ0FBQyxPQUFPLENBQUMsZUFBZSxDQUFDLENBQUM7SUFDeEMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLElBQUksQ0FBQyxPQUFPLENBQUMsdUNBQXVDLENBQUMsQ0FBQztJQUNoRSxFQUFFLENBQUMsQ0FBQyxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUMsQ0FBQztRQUNYLENBQUMsQ0FBQyxJQUFJLENBQUMsQ0FBQyxDQUFDLEdBQUcsZ0NBQWdDLENBQUM7SUFDL0MsQ0FBQztBQUNILENBQUMsRUFBRSxDQUFDLENBQUM7QUFFTCxNQUFNLENBQUMsTUFBTSxDQUFDLE9BQU8sQ0FBQztLQUNuQixLQUFLLENBQUMsVUFBQSxDQUFDLElBQUksT0FBQSxPQUFPLENBQUMsS0FBSyxDQUFDLENBQUMsRUFDekIsc0VBQXNFLENBQUMsRUFEN0QsQ0FDNkQsQ0FBQyxDQUFDIiwiZmlsZSI6ImluaXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLy8gPHJlZmVyZW5jZSBwYXRoPVwiLi4vdHlwaW5ncy9jdXN0b20uc3lzdGVtLmQudHNcIiAvPlxuU3lzdGVtLmNvbmZpZyh7XG4gIHBhdGhzOiB7JyonOiAnKi5qcz92PTwlPSBWRVJTSU9OICU+J31cbn0pO1xuXG4vLyBVZ2x5IHdvcmthcm91bmQgb2Ygc3lzdGVtanMgaXNzdWUgaHR0cHM6Ly9naXRodWIuY29tL3N5c3RlbWpzL3N5c3RlbWpzL2lzc3Vlcy80ODdcbihmdW5jdGlvbiAoKSB7XG4gIHZhciBjID0gU3lzdGVtLmRlZmluZWRbJ2FuZ3VsYXIyL2NvcmUnXTtcbiAgdmFyIGkgPSBjLmRlcHMuaW5kZXhPZignYW5ndWxhcjIvc3JjL2NvcmUvY29tcGlsZXIvaW50ZXJmYWNlcycpO1xuICBpZiAoaSA+PSAwKSB7XG4gICAgYy5kZXBzW2ldID0gJ2FuZ3VsYXIyL3NyYy9jb3JlL3pvbmUvbmdfem9uZSc7XG4gIH1cbn0oKSk7XG5cblN5c3RlbS5pbXBvcnQoJy4vYXBwJylcbiAgLmNhdGNoKGUgPT4gY29uc29sZS5lcnJvcihlLFxuICAgICdSZXBvcnQgdGhpcyBlcnJvciBhdCBodHRwczovL2dpdGh1Yi5jb20vbWdlY2hldi9hbmd1bGFyMi1zZWVkL2lzc3VlcycpKTsiXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
