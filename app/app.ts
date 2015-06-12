@@ -7,7 +7,10 @@ import {Component, View, bootstrap} from 'angular2/angular2';
 
 @View({
 	template: 
-	'<h1>Welcome !</h1>'
+	`
+		<h1>Welcome Dr Baoudj !</h1>   
+		<div id="calendar">Test</div>
+	`
 })
 
 class App {
