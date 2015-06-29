@@ -1,0 +1,10 @@
+<h1>Welcome Dr BAOUDJ</h1>	
+<div id="calendar"></div>
+
+<div class="popup" style="display: none;">
+	<form>
+		<input type="text" placholder="Name" #title />
+		<input type="time" placholder="Time" #start_time />
+		<button (click)="onSave($event, title.value, start_time.value)">Réservé</button>
+	</form>
+</div>

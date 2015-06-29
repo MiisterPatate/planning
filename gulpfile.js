@@ -54,6 +54,7 @@ var PATH = {
       './node_modules/systemjs/dist/system.src.js',
       './node_modules/angular2/node_modules/zone.js/dist/zone.js',
       './node_modules/clndr/clndr.min.js',
+      './node_modules/clndr/node_modules/jquery/dist/jquery.min.js',
     ]
   }
 };
