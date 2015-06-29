@@ -2,7 +2,7 @@
 
 Boilerplate for Angular2 learning
 
-Based on the angular boilerplate [angular2-seed](https://github.com/mgechev/angular2-seed) by [mgechev](https://github.com/mgechev)
+Based on the angular boilerplate [angular2-seed](https://github.com/MiisterPatate/planning.git) 
 
 # How to start
 
