@@ -8,6 +8,3 @@ npm install -g gulp # If you don't have gulp already installed
 gulp serve
 ```
 
-# License
-
-MIT
